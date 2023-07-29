@@ -1,20 +1,18 @@
 /**
  * @file
- * This TypeScript file implements various classes for handling items in an item-pair contrasting system.
+ * This implements various classes for handling items in an item-pair contrasting system.
  * It provides structures for handling items, computing levenshtein distances, and two contrasting algorithms:
  * a static and an adaptive one.
  *
  * The system works by comparing and contrasting item pairs. These item pairs are analyzed based on 
  * levenshtein distances to identify similarity levels.
  *
- * The contrasting algorithms are used to generate a list of item pairs to be compared. 
+ * The contrasting algorithms generate a list of item pairs to be compared. 
  * They work in rounds, contrasting a number of items in each round.
  *
  * The StaticContrastingAlgorithm selects items for comparison that are very similar to each other.
  * The AdaptiveContrastingAlgorithm adjusts the level of contrasting dynamically based on the user's skill,
  * so the words differ a lot at first but as the user's skill increases the selected items become increasingly similar.
- * 
- * @author Loek Gerrits
  */
 
 import { assert } from 'console';
