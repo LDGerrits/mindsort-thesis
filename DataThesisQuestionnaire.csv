@@ -1,0 +1,17 @@
+Participant,Age,Gender,Session,List,Task,Learning,Immediate,Retention,Difficulty,Engagement,Enjoyment
+1,21,Female,1,A,Adaptive,81,19,3,6,4,3
+1,21,Female,2,B,Static,61,7,3,8,2,1
+2,22,Male,1,A,Static,68,17,15,7,9,10
+2,22,Male,2,B,Adaptive,86,22,19,5,9,10
+3,21,Female,1,B,Adaptive,81,23,13,5,7,7
+3,21,Female,2,A,Static,105,24,13,6,7,7
+4,22,Male,1,A,Static,72,16,3,8,7,6
+4,22,Male,2,B,Adaptive,77,19,6,7,8,6
+5,23,Male,1,B,Adaptive,85,17,15,8,7,9
+5,23,Male,2,A,Static,110,24,20,6,7,8
+6,22,Female,1,A,Adaptive,,13,10,9,8,7
+6,22,Female,2,B,Static,99,20,16,9,8,7
+7,25,Female,1,A,Static,116,23,15,6,8,8
+7,25,Female,2,B,Adaptive,113,18,17,8,8,8
+8,20,Female,1,B,Adaptive,92,15,10,9,6,6
+8,20,Female,2,A,Static,81,17,14,9,6,6
